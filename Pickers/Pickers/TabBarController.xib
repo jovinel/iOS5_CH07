@@ -33,7 +33,7 @@
 				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
-			<object class="IBUITabBarController" id="696719789">
+			<object class="IBUITabBarController" id="344088835">
 				<object class="IBUISimulatedTabBarMetrics" key="IBUISimulatedBottomBarMetrics"/>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
@@ -43,15 +43,18 @@
 				<bool key="IBUIDefinesPresentationContext">YES</bool>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<bool key="IBUIHorizontal">NO</bool>
-				<object class="IBUIViewController" key="IBUISelectedViewController" id="95962510">
-					<object class="IBUITabBarItem" key="IBUITabBarItem" id="67556414">
-						<string key="IBUITitle">Item</string>
+				<object class="IBUIViewController" key="IBUISelectedViewController" id="25330664">
+					<object class="IBUITabBarItem" key="IBUITabBarItem" id="395532536">
+						<string key="IBUITitle">Custom</string>
+						<object class="NSCustomResource" key="IBUIImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">toolicon.png</string>
+						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<reference key="IBUITabBar" ref="369555716"/>
+						<reference key="IBUITabBar" ref="457245620"/>
 					</object>
-					<array key="IBUIToolbarItems" id="0"/>
-					<reference key="IBUIParentViewController" ref="696719789"/>
-					<string key="IBUINibName">BIDDoubleComponentPickerViewController</string>
+					<reference key="IBUIParentViewController" ref="344088835"/>
+					<string key="IBUINibName">BIDCustomPickerViewController</string>
 					<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 						<int key="IBUIInterfaceOrientation">1</int>
 						<int key="interfaceOrientation">1</int>
@@ -60,13 +63,17 @@
 					<bool key="IBUIHorizontal">NO</bool>
 				</object>
 				<array class="NSMutableArray" key="IBUIViewControllers">
-					<object class="IBUIViewController" id="321411344">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="940942068">
-							<string key="IBUITitle">Item 1</string>
+					<object class="IBUIViewController" id="1057327652">
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="666882421">
+							<string key="IBUITitle">Date</string>
+							<object class="NSCustomResource" key="IBUIImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">clockicon.png</string>
+							</object>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<reference key="IBUITabBar" ref="369555716"/>
+							<reference key="IBUITabBar" ref="457245620"/>
 						</object>
-						<reference key="IBUIParentViewController" ref="696719789"/>
+						<reference key="IBUIParentViewController" ref="344088835"/>
 						<string key="IBUINibName">BIDDatePickerViewController</string>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
@@ -75,14 +82,18 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIHorizontal">NO</bool>
 					</object>
-					<object class="IBUIViewController" id="706473695">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="467573017">
-							<string key="IBUITitle">Item</string>
+					<object class="IBUIViewController" id="315664148">
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="269723231">
+							<string key="IBUITitle">Single</string>
+							<object class="NSCustomResource" key="IBUIImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">singleicon.png</string>
+							</object>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<reference key="IBUITabBar" ref="369555716"/>
+							<reference key="IBUITabBar" ref="457245620"/>
 						</object>
-						<reference key="IBUIToolbarItems" ref="0"/>
-						<reference key="IBUIParentViewController" ref="696719789"/>
+						<array key="IBUIToolbarItems" id="0"/>
+						<reference key="IBUIParentViewController" ref="344088835"/>
 						<string key="IBUINibName">BIDSingleComponentPickerViewController</string>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
@@ -91,15 +102,38 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIHorizontal">NO</bool>
 					</object>
-					<reference ref="95962510"/>
-					<object class="IBUIViewController" id="116581153">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="15876356">
-							<string key="IBUITitle">Item</string>
+					<object class="IBUIViewController" id="318416288">
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="207629589">
+							<string key="IBUITitle">Double</string>
+							<object class="NSCustomResource" key="IBUIImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">doubleicon.png</string>
+							</object>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<reference key="IBUITabBar" ref="369555716"/>
+							<reference key="IBUITabBar" ref="457245620"/>
 						</object>
 						<reference key="IBUIToolbarItems" ref="0"/>
-						<reference key="IBUIParentViewController" ref="696719789"/>
+						<reference key="IBUIParentViewController" ref="344088835"/>
+						<string key="IBUINibName">BIDDoubleComponentPickerViewController</string>
+						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
+							<int key="IBUIInterfaceOrientation">1</int>
+							<int key="interfaceOrientation">1</int>
+						</object>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<bool key="IBUIHorizontal">NO</bool>
+					</object>
+					<object class="IBUIViewController" id="433171387">
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="724423235">
+							<string key="IBUITitle">Dependent</string>
+							<object class="NSCustomResource" key="IBUIImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">dependenticon.png</string>
+							</object>
+							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+							<reference key="IBUITabBar" ref="457245620"/>
+						</object>
+						<reference key="IBUIToolbarItems" ref="0"/>
+						<reference key="IBUIParentViewController" ref="344088835"/>
 						<string key="IBUINibName">BIDDependentComponentPickerViewController</string>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
@@ -108,23 +142,9 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIHorizontal">NO</bool>
 					</object>
-					<object class="IBUIViewController" id="915430408">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="136323294">
-							<string key="IBUITitle">Item 2</string>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<reference key="IBUITabBar" ref="369555716"/>
-						</object>
-						<reference key="IBUIParentViewController" ref="696719789"/>
-						<string key="IBUINibName">BIDCustomPickerViewController</string>
-						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-							<int key="IBUIInterfaceOrientation">1</int>
-							<int key="interfaceOrientation">1</int>
-						</object>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<bool key="IBUIHorizontal">NO</bool>
-					</object>
+					<reference ref="25330664"/>
 				</array>
-				<object class="IBUITabBar" key="IBUITabBar" id="369555716">
+				<object class="IBUITabBar" key="IBUITabBar" id="457245620">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">266</int>
 					<string key="NSFrame">{{0, 431}, {320, 49}}</string>
@@ -137,13 +157,13 @@
 					</object>
 					<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					<array class="NSMutableArray" key="IBUIItems">
-						<reference ref="940942068"/>
-						<reference ref="467573017"/>
-						<reference ref="67556414"/>
-						<reference ref="15876356"/>
-						<reference ref="136323294"/>
+						<reference ref="666882421"/>
+						<reference ref="269723231"/>
+						<reference ref="207629589"/>
+						<reference ref="724423235"/>
+						<reference ref="395532536"/>
 					</array>
-					<reference key="IBUISelectedItem" ref="67556414"/>
+					<reference key="IBUISelectedItem" ref="395532536"/>
 				</object>
 			</object>
 		</array>
@@ -153,7 +173,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">rootController</string>
 						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="696719789"/>
+						<reference key="destination" ref="344088835"/>
 					</object>
 					<int key="connectionID">8</int>
 				</object>
@@ -179,86 +199,86 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">2</int>
-						<reference key="object" ref="696719789"/>
+						<reference key="object" ref="344088835"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="369555716"/>
-							<reference ref="321411344"/>
-							<reference ref="915430408"/>
-							<reference ref="95962510"/>
-							<reference ref="116581153"/>
-							<reference ref="706473695"/>
+							<reference ref="457245620"/>
+							<reference ref="1057327652"/>
+							<reference ref="25330664"/>
+							<reference ref="318416288"/>
+							<reference ref="433171387"/>
+							<reference ref="315664148"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">3</int>
-						<reference key="object" ref="369555716"/>
-						<reference key="parent" ref="696719789"/>
+						<reference key="object" ref="457245620"/>
+						<reference key="parent" ref="344088835"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">4</int>
-						<reference key="object" ref="321411344"/>
+						<reference key="object" ref="1057327652"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="940942068"/>
+							<reference ref="666882421"/>
 						</array>
-						<reference key="parent" ref="696719789"/>
+						<reference key="parent" ref="344088835"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">5</int>
-						<reference key="object" ref="915430408"/>
+						<reference key="object" ref="25330664"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="136323294"/>
+							<reference ref="395532536"/>
 						</array>
-						<reference key="parent" ref="696719789"/>
+						<reference key="parent" ref="344088835"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">6</int>
-						<reference key="object" ref="136323294"/>
-						<reference key="parent" ref="915430408"/>
+						<reference key="object" ref="395532536"/>
+						<reference key="parent" ref="25330664"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">7</int>
-						<reference key="object" ref="940942068"/>
-						<reference key="parent" ref="321411344"/>
+						<reference key="object" ref="666882421"/>
+						<reference key="parent" ref="1057327652"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
-						<reference key="object" ref="95962510"/>
+						<reference key="object" ref="318416288"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="67556414"/>
+							<reference ref="207629589"/>
 						</array>
-						<reference key="parent" ref="696719789"/>
+						<reference key="parent" ref="344088835"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">9</int>
-						<reference key="object" ref="67556414"/>
-						<reference key="parent" ref="95962510"/>
+						<reference key="object" ref="207629589"/>
+						<reference key="parent" ref="318416288"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">12</int>
-						<reference key="object" ref="116581153"/>
+						<reference key="object" ref="433171387"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="15876356"/>
+							<reference ref="724423235"/>
 						</array>
-						<reference key="parent" ref="696719789"/>
+						<reference key="parent" ref="344088835"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">11</int>
-						<reference key="object" ref="15876356"/>
-						<reference key="parent" ref="116581153"/>
+						<reference key="object" ref="724423235"/>
+						<reference key="parent" ref="433171387"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">14</int>
-						<reference key="object" ref="706473695"/>
+						<reference key="object" ref="315664148"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="467573017"/>
+							<reference ref="269723231"/>
 						</array>
-						<reference key="parent" ref="696719789"/>
+						<reference key="parent" ref="344088835"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">13</int>
-						<reference key="object" ref="467573017"/>
-						<reference key="parent" ref="706473695"/>
+						<reference key="object" ref="269723231"/>
+						<reference key="parent" ref="315664148"/>
 					</object>
 				</array>
 			</object>
@@ -358,6 +378,13 @@
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
+		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="clockicon.png">{24, 24}</string>
+			<string key="dependenticon.png">{25, 24}</string>
+			<string key="doubleicon.png">{25, 24}</string>
+			<string key="singleicon.png">{25, 24}</string>
+			<string key="toolicon.png">{24, 24}</string>
+		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">933</string>
 	</data>
 </archive>
