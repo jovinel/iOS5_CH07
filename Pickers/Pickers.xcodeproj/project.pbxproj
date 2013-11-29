@@ -30,6 +30,15 @@
 		007F8034184845200005F0D2 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 007F802F184845200005F0D2 /* toolicon.png */; };
 		007F8036184846450005F0D2 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007F8035184846450005F0D2 /* TabBarController.xib */; };
 		007F803818486DA10005F0D2 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 007F803718486DA10005F0D2 /* statedictionary.plist */; };
+		007F80401848797C0005F0D2 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 007F803A1848797C0005F0D2 /* apple.png */; };
+		007F80411848797C0005F0D2 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 007F803B1848797C0005F0D2 /* bar.png */; };
+		007F80421848797C0005F0D2 /* cherry.png in Resources */ = {isa = PBXBuildFile; fileRef = 007F803C1848797C0005F0D2 /* cherry.png */; };
+		007F80431848797C0005F0D2 /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = 007F803D1848797C0005F0D2 /* crown.png */; };
+		007F80441848797C0005F0D2 /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 007F803E1848797C0005F0D2 /* lemon.png */; };
+		007F80451848797C0005F0D2 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = 007F803F1848797C0005F0D2 /* seven.png */; };
+		007F8049184883850005F0D2 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 007F8047184883850005F0D2 /* crunch.wav */; };
+		007F804A184883850005F0D2 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 007F8048184883850005F0D2 /* win.wav */; };
+		007F804E184887A20005F0D2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007F804D184887A20005F0D2 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +74,15 @@
 		007F802F184845200005F0D2 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
 		007F8035184846450005F0D2 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 		007F803718486DA10005F0D2 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		007F803A1848797C0005F0D2 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		007F803B1848797C0005F0D2 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		007F803C1848797C0005F0D2 /* cherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry.png; sourceTree = "<group>"; };
+		007F803D1848797C0005F0D2 /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		007F803E1848797C0005F0D2 /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
+		007F803F1848797C0005F0D2 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		007F8047184883850005F0D2 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		007F8048184883850005F0D2 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		007F804D184887A20005F0D2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007F804E184887A20005F0D2 /* AudioToolbox.framework in Frameworks */,
 				007F7FFB184840F50005F0D2 /* UIKit.framework in Frameworks */,
 				007F7FFD184840F50005F0D2 /* Foundation.framework in Frameworks */,
 				007F7FFF184840F50005F0D2 /* CoreGraphics.framework in Frameworks */,
@@ -101,6 +120,7 @@
 		007F7FF9184840F50005F0D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				007F804D184887A20005F0D2 /* AudioToolbox.framework */,
 				007F7FFA184840F50005F0D2 /* UIKit.framework */,
 				007F7FFC184840F50005F0D2 /* Foundation.framework */,
 				007F7FFE184840F50005F0D2 /* CoreGraphics.framework */,
@@ -111,6 +131,8 @@
 		007F8000184840F50005F0D2 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				007F8046184883850005F0D2 /* Custom Picker Sounds */,
+				007F80391848797C0005F0D2 /* Custom Picker Images */,
 				007F803718486DA10005F0D2 /* statedictionary.plist */,
 				007F802A184845200005F0D2 /* Tab Bar Icons */,
 				007F8009184840F50005F0D2 /* BIDAppDelegate.h */,
@@ -157,6 +179,28 @@
 				007F802F184845200005F0D2 /* toolicon.png */,
 			);
 			path = "Tab Bar Icons";
+			sourceTree = "<group>";
+		};
+		007F80391848797C0005F0D2 /* Custom Picker Images */ = {
+			isa = PBXGroup;
+			children = (
+				007F803A1848797C0005F0D2 /* apple.png */,
+				007F803B1848797C0005F0D2 /* bar.png */,
+				007F803C1848797C0005F0D2 /* cherry.png */,
+				007F803D1848797C0005F0D2 /* crown.png */,
+				007F803E1848797C0005F0D2 /* lemon.png */,
+				007F803F1848797C0005F0D2 /* seven.png */,
+			);
+			path = "Custom Picker Images";
+			sourceTree = "<group>";
+		};
+		007F8046184883850005F0D2 /* Custom Picker Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				007F8047184883850005F0D2 /* crunch.wav */,
+				007F8048184883850005F0D2 /* win.wav */,
+			);
+			path = "Custom Picker Sounds";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +266,14 @@
 				007F8034184845200005F0D2 /* toolicon.png in Resources */,
 				007F8036184846450005F0D2 /* TabBarController.xib in Resources */,
 				007F803818486DA10005F0D2 /* statedictionary.plist in Resources */,
+				007F80401848797C0005F0D2 /* apple.png in Resources */,
+				007F80411848797C0005F0D2 /* bar.png in Resources */,
+				007F80421848797C0005F0D2 /* cherry.png in Resources */,
+				007F80431848797C0005F0D2 /* crown.png in Resources */,
+				007F80441848797C0005F0D2 /* lemon.png in Resources */,
+				007F80451848797C0005F0D2 /* seven.png in Resources */,
+				007F8049184883850005F0D2 /* crunch.wav in Resources */,
+				007F804A184883850005F0D2 /* win.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
