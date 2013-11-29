@@ -23,6 +23,12 @@
 		007F8024184842000005F0D2 /* BIDDependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007F8022184842000005F0D2 /* BIDDependentComponentPickerViewController.xib */; };
 		007F80281848420D0005F0D2 /* BIDCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007F80261848420D0005F0D2 /* BIDCustomPickerViewController.m */; };
 		007F80291848420D0005F0D2 /* BIDCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007F80271848420D0005F0D2 /* BIDCustomPickerViewController.xib */; };
+		007F8030184845200005F0D2 /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 007F802B184845200005F0D2 /* clockicon.png */; };
+		007F8031184845200005F0D2 /* dependenticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 007F802C184845200005F0D2 /* dependenticon.png */; };
+		007F8032184845200005F0D2 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 007F802D184845200005F0D2 /* doubleicon.png */; };
+		007F8033184845200005F0D2 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 007F802E184845200005F0D2 /* singleicon.png */; };
+		007F8034184845200005F0D2 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 007F802F184845200005F0D2 /* toolicon.png */; };
+		007F8036184846450005F0D2 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007F8035184846450005F0D2 /* TabBarController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +57,12 @@
 		007F80251848420D0005F0D2 /* BIDCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCustomPickerViewController.h; sourceTree = "<group>"; };
 		007F80261848420D0005F0D2 /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCustomPickerViewController.m; sourceTree = "<group>"; };
 		007F80271848420D0005F0D2 /* BIDCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDCustomPickerViewController.xib; sourceTree = "<group>"; };
+		007F802B184845200005F0D2 /* clockicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockicon.png; sourceTree = "<group>"; };
+		007F802C184845200005F0D2 /* dependenticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dependenticon.png; sourceTree = "<group>"; };
+		007F802D184845200005F0D2 /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
+		007F802E184845200005F0D2 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
+		007F802F184845200005F0D2 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
+		007F8035184846450005F0D2 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,7 @@
 		007F8000184840F50005F0D2 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				007F802A184845200005F0D2 /* Tab Bar Icons */,
 				007F8009184840F50005F0D2 /* BIDAppDelegate.h */,
 				007F800A184840F50005F0D2 /* BIDAppDelegate.m */,
 				007F8001184840F50005F0D2 /* Supporting Files */,
@@ -115,6 +128,7 @@
 				007F80251848420D0005F0D2 /* BIDCustomPickerViewController.h */,
 				007F80261848420D0005F0D2 /* BIDCustomPickerViewController.m */,
 				007F80271848420D0005F0D2 /* BIDCustomPickerViewController.xib */,
+				007F8035184846450005F0D2 /* TabBarController.xib */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -128,6 +142,18 @@
 				007F8008184840F50005F0D2 /* Pickers-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		007F802A184845200005F0D2 /* Tab Bar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				007F802B184845200005F0D2 /* clockicon.png */,
+				007F802C184845200005F0D2 /* dependenticon.png */,
+				007F802D184845200005F0D2 /* doubleicon.png */,
+				007F802E184845200005F0D2 /* singleicon.png */,
+				007F802F184845200005F0D2 /* toolicon.png */,
+			);
+			path = "Tab Bar Icons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +212,12 @@
 				007F801F184841F60005F0D2 /* BIDDoubleComponentPickerViewController.xib in Resources */,
 				007F8024184842000005F0D2 /* BIDDependentComponentPickerViewController.xib in Resources */,
 				007F80291848420D0005F0D2 /* BIDCustomPickerViewController.xib in Resources */,
+				007F8030184845200005F0D2 /* clockicon.png in Resources */,
+				007F8031184845200005F0D2 /* dependenticon.png in Resources */,
+				007F8032184845200005F0D2 /* doubleicon.png in Resources */,
+				007F8033184845200005F0D2 /* singleicon.png in Resources */,
+				007F8034184845200005F0D2 /* toolicon.png in Resources */,
+				007F8036184846450005F0D2 /* TabBarController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
