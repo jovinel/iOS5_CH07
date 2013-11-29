@@ -9,6 +9,14 @@
 #import "BIDDatePickerViewController.h"
 
 @implementation BIDDatePickerViewController
+@synthesize datePicker;
+
+- (IBAction)buttonPressed {
+    NSDate *selected = [datePicker date];
+    NSString *message = [[NSString alloc] initWithFormat:@"The date and time you selected is: %@", selected];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Date and Time Selected" message: message delegate: nil cancelButtonTitle:@"Yes, I did." otherButtonTitles:nil];
+    [alert show];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,6 +41,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    NSDate *now = [NSDate date];
+    [datePicker setDate:now animated:NO];
 }
 
 - (void)viewDidUnload
@@ -40,6 +51,8 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    
+    self.datePicker = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
