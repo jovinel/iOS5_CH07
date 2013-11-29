@@ -29,6 +29,7 @@
 		007F8033184845200005F0D2 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 007F802E184845200005F0D2 /* singleicon.png */; };
 		007F8034184845200005F0D2 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 007F802F184845200005F0D2 /* toolicon.png */; };
 		007F8036184846450005F0D2 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007F8035184846450005F0D2 /* TabBarController.xib */; };
+		007F803818486DA10005F0D2 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 007F803718486DA10005F0D2 /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		007F802E184845200005F0D2 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
 		007F802F184845200005F0D2 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
 		007F8035184846450005F0D2 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		007F803718486DA10005F0D2 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		007F8000184840F50005F0D2 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				007F803718486DA10005F0D2 /* statedictionary.plist */,
 				007F802A184845200005F0D2 /* Tab Bar Icons */,
 				007F8009184840F50005F0D2 /* BIDAppDelegate.h */,
 				007F800A184840F50005F0D2 /* BIDAppDelegate.m */,
@@ -218,6 +221,7 @@
 				007F8033184845200005F0D2 /* singleicon.png in Resources */,
 				007F8034184845200005F0D2 /* toolicon.png in Resources */,
 				007F8036184846450005F0D2 /* TabBarController.xib in Resources */,
+				007F803818486DA10005F0D2 /* statedictionary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
